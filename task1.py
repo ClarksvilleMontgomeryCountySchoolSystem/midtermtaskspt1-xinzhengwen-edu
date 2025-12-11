@@ -21,10 +21,10 @@ days_to_milestone = int(round((milestone_increment - progress_in_milestone) / da
 weekly_growth = daily_average * 7
 
 # Display results with f-strings
-print(f'''Creator: {creator_name}
-Current Milestone: {current_milestone}
-Progress in Milestone: {progress_in_milestone} followers 
-Total Growth: {total_gained} followers
-Daily Average: {daily_average} followers
-Days to Next Milestone: {days_to_milestone} days
-Weekly Growth Projection: {weekly_growth} followers''')
+print(f"Creator: {creator_name}")
+print(f"Current Milestone: {current_milestone}")
+print(f"Progress in Milestone: {progress_in_milestone} followers")
+print(f"Total Growth: {total_gained} followers")
+print(f"Daily Average: {daily_average} followers")
+print(f"Days to Next Milestone: {days_to_milestone} days")
+print(f"Weekly Growth Projection: {weekly_growth} followers")
